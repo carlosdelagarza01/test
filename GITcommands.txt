@@ -15,3 +15,8 @@ git diff --cached
 git log --oneline
 git commit -a -m "<comment>"		//shortcut add + commit
 git status -s
+
+//create SSH key
+ssh-keygen -t rsa -C "carlos.delagarzaarias01@utrgv.edu"
+
+ssh -T git@github.com
