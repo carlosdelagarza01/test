@@ -7,5 +7,4 @@ git status
 git add .
 git rm --cached <filename>
 git commit -m "<comment>"
-change
-more 
+git diff
