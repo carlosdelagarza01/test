@@ -8,3 +8,7 @@ git add .
 git rm --cached <filename>
 git commit -m "<comment>"
 git diff
+git diff --cached
+
+once log is to big shift+zz to exit
+git log --oneline
