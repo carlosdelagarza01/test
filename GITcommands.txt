@@ -13,4 +13,5 @@ git diff --cached
 
 //shortcuts
 git log --oneline
-git commit -a -m "<comment>"
+git commit -a -m "<comment>"		//shortcut add + commit
+git status -s
