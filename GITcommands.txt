@@ -18,5 +18,8 @@ git status -s
 
 //create SSH key
 ssh-keygen -t rsa -C "carlos.delagarzaarias01@utrgv.edu"
-
 ssh -T git@github.com
+
+//push project
+git remote add origin <ssh name of remote repo>
+git push origin master
