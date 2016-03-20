@@ -1,0 +1,9 @@
+ls
+git config --global user.name "<name>"
+git config --global user.email "<email>"
+git init <folder>
+cd <folder>
+git status
+git add .
+git rm --cached <filename>
+git commit -m "<comment>"
