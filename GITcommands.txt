@@ -7,8 +7,10 @@ git status
 git add .
 git rm --cached <filename>
 git commit -m "<comment>"
+git log    			//shift+zz to exit
 git diff
 git diff --cached
 
-once log is to big shift+zz to exit
+//shortcuts
 git log --oneline
+git commit -a -m "<comment>"
